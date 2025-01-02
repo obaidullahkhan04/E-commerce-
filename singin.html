@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            text-align: center;
+            width: 350px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .btn {
+            display:inline-block;
+	padding:11px 26px;
+	background:#ff9900;
+	color:black;
+	border:2px #ff9900;
+	border-radius: 8px;
+	font-size:15px;
+	font-weight:600;
+	transition:all .50s ease;
+        }
+        .btn:hover {
+            background: transparent;
+	color:#ff9900;
+	box-shadow:0 0 20px #ff9900;
+        }
+        a {
+            text-decoration: none;
+            color: #0066c0;
+            font-size: 12px;
+        }
+        .links {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        .divider {
+            margin: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .create-account-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #e7e9ec;
+            color: #111;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html">
+        <img class="logo" src="logo.png" alt="PK-ZONE Logo" width="100">
+        </a>
+        <h2>Sign in</h2>
+        <form>
+            <input type="text" placeholder="UserName" required>
+            <input type="text" placeholder="Password" required>
+            <button type="submit" class="btn">Continue</button>
+        </form>
+        <div class="links">
+            <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>
+        </div>
+        <div class="divider"></div>
+        <a href="#" class="create-account-btn">Create your PK-Zone account</a>
+        <p>New customer? <a href="newuser.html">Start here.</a></p>
+    </div>
+</body>
+</html>
